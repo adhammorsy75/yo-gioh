@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh Card Info</title>
+    <script defer src="js.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+           <H1>SNAPY</H1>
+           <a href="index.html"><li>HOME</li></a>
+           <a href="search.html"><li>SEARCH</li></a>
+           <a href="aboutus.html"><li>ABOUT US</li></a>
+    
+            
+        </nav>
+</head>
+    <div id="container">
+        <div class="searchCard">
+            <label for="inputBar"><h1>Enter Yu-Gi-Oh! Card Name:</h1></label>
+            <input type="text" id="inputBar" style="width: 400px;">
+            <button id="searchButton">Search</button>
+            <div id="CI">
+                <img id="cardImage" src="" alt="Card Image">
+                <div id="cardInfo">
+                    <h2>Card name:</h2>
+                    <p id="cardName"></p>
+                    <h2>Card Type:</h2>
+                    <p id="cardType"></p>
+                    <h2>Attribute:</h2>
+                    <p id="cardAttribute"></p>
+                    <h2>Level/Rank:</h2>
+                    <p id="cardLevel"></p>
+                    <h2>Card Description:</h2>
+                    <p id="cardDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Copyright by Snap | SNAP</h3>
+    </footer>
+</body>
+</html>
